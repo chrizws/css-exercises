@@ -1,6 +1,29 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 5px;
+}
+
+.left-links {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left-links ul {
+  padding: 5px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.left-links, .logo, .right-links {
+
+  margin: 5px;
+  padding: 5px;
 }
 
 .logo {
@@ -9,6 +32,16 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-links ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: right;
 }
 
 ul {
